@@ -1,3 +1,226 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-top{
+    display: flex;
+    justify-content: space-around;
+    width: 1080px;
+    padding: 50px;
+   
+}
+
+
+nav a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    color: gray;
+}
+
+header{
+    line-height: 0.75;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.brand{
+    padding: 0 0 50px 0;
+    margin-left: 20%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+header .brand button{
+font-family: 'Varela Round', sans-serif;
+font-weight: 600;
+display: flex;
+justify-content: center;
+background: white;
+border: 1px solid black;
+margin-top: 0;
+padding: 6px 40px;
+}
+
+
+header img {
+    display: flex;
+    justify-content: start;
+    width: 35%;
+    margin-right: 115px;
+    margin-bottom: 20px
+    /* border: 1px solid blue; */
+}
+
+
+.hr-1{
+    width: 80%;
+    margin-bottom: 50px;
+    border: none; 
+    height: 2px;
+    background-color: #333;
+}
+
+.content-first{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.middle-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid blue; */
+
+}
+
+
+.middle-img img{
+    width: 80%;
+}
+
+
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 10px;
+    }
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.content-second{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 30px 0;
+    margin: 0 128px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.products{
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.hr-2{
+    width: 80%;
+    margin-bottom: 30px;
+    border: none; 
+    height: 2px;
+    background-color: #333;
+}
+
+.contact {
+    padding-left: 10%;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 30px;
+   font-family: 'Varela Round', sans-serif;
+   font-weight: 600;
+
+}
 
 
