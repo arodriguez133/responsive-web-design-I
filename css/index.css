@@ -68,8 +68,7 @@ h1, h2, h3, h4, h5 {
 
 nav{
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content: center; 
 }
 
 .nav-container{
@@ -79,8 +78,15 @@ nav{
     padding: 50px;  
 }
 
+.nav-items{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+    }
 
-nav a{
+
+.nav-items a{
     margin-top: 10px;
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
@@ -88,28 +94,31 @@ nav a{
 }
 
 header{
-    line-height: 0.75;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px;
 }
 
-.brand{
-    padding: 0 0 50px 0;
-    font-size: 70px;
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
+
+header .brand{
+	font-size: 68px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
     align-items: center;
+    padding: 0 20px 0 0;
 }
 
+.img-round{
+    margin-left: 50px;
+    align-self: flex-end;
+}
 
 header .brand button{
 font-family: 'Varela Round', sans-serif;
 font-weight: 600;
 font-size: 16px;
 display: flex;
-/* justify-content: center; */
 background: white;
 border: 1px solid black;
 margin-top: 25px;
@@ -221,6 +230,10 @@ footer{
      order: -1;
      width: 27.70%;
      align-self: center;
+ }
+
+ header{
+     justify-content: center;
  }
 
  .img-round{
