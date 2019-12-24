@@ -243,9 +243,61 @@ footer{
 .brand{     
      margin-top: 35px;
 }
+}
+
+@media(max-width: 500px){
+
+    header{
+        margin: 0;
+        padding: 0;
+    }
+
+ .nav-items{
+     flex-direction: column;
+     align-items: center;
+ }    
+
+ .nav-items a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    }
+
+    .content-first{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features, .about{
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .content-second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .content-second .services{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        
+        .content-second .products{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+    
+        .content-second .vision{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
 
 
 }
-
 
 
